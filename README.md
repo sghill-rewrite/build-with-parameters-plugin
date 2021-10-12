@@ -10,7 +10,15 @@ This is useful if you want to create a list of jobs with parameters to trigger a
 An example triggering of a job with the plugin:  
 ![](example_screenshot.png)
 
+
+## Build
+Running `mvn hpi:run` will get you hpi plugin file in "./target" directory
+
 ## Changelog
+
+### 1.6 - Oct 13, 2021
+
+- Move documentation to GitHub
 
 ### 1.5.1 - Mar 26, 2021
 
@@ -33,3 +41,4 @@ An example triggering of a job with the plugin:
 
 -   Hide job action from UI to avoid confusion
     ([JENKINS-25413](https://issues.jenkins-ci.org/browse/JENKINS-25413)).
+
