@@ -42,11 +42,11 @@ public class BuildParameter {
 
     public void setValue(ParameterValue parameterValue) {
         if (parameterValue instanceof StringParameterValue) {
-            this.value = ((StringParameterValue) parameterValue).value;
+            this.value = ((StringParameterValue) parameterValue).getValue();
         } else if (parameterValue instanceof TextParameterValue) {
-            this.value = ((TextParameterValue) parameterValue).value;
+            this.value = ((TextParameterValue) parameterValue).getValue();
         } else if (parameterValue instanceof BooleanParameterValue) {
-            this.value = String.valueOf(((BooleanParameterValue) parameterValue).value);
+            this.value = String.valueOf(((BooleanParameterValue) parameterValue).getValue());
         } else if (parameterValue instanceof PasswordParameterValue) {
             this.value = JOB_DEFAULT_PASSWORD_PLACEHOLDER;
         }

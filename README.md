@@ -16,6 +16,11 @@ Running `mvn hpi:run` will get you hpi plugin file in "./target" directory
 
 ## Changelog
 
+### 1.7 - Mar 5, 2022
+
+- Update to support icons removal from Jenkins Core
+- Bumped parent POM and minimal Jenkins version are now 2.204
+
 ### 1.6 - Oct 13, 2021
 
 - Move documentation to GitHub
