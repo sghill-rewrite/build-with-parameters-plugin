@@ -23,10 +23,9 @@
     </licenses>
 
     <properties>
-        <changelist>-SNAPSHOT</changelist>
+        <changelist>999999-SNAPSHOT</changelist>
         <gitHubRepo>jenkinsci/build-with-parameters-plugin</gitHubRepo>
         <revision>1.7</revision>
-        <changelist>-SNAPSHOT</changelist>
         <jenkins.version>2.440.3</jenkins.version>
     </properties>
 
